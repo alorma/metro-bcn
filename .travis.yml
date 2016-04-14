@@ -1,0 +1,11 @@
+language: bash
+
+branches:
+  only:
+    - master
+
+before_script:
+  - chmod +x script.sh
+
+script:
+  - ./script.sh
